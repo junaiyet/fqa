@@ -1,0 +1,55 @@
+/* @media (min-width:320px) and (max-width: 575.98px)  */
+@media(min-width:320px) and (max-width:575.98px) {
+    nav ul{
+        text-align: center;
+    }
+    nav ul li a::after {
+        display: none;
+
+    }
+
+    nav ul li .active::after {
+        display: none;
+    }
+
+    nav ul li a:hover::after {
+        display: none;
+    }
+    #banner_part .banner .overlay p {
+      
+        width: auto;
+   
+    }
+    #banner_part .banner .overlay {
+     
+        padding-top: 150px;
+        padding-bottom: 100px;
+    
+    }
+    #about_part .detals p {
+  
+        width: auto;
+       
+    }
+    #about_part .detals .button {
+ 
+        margin-bottom: 20px;
+    }
+ 
+    #Portfolio_part .portfolio_item .item:hover .img .img_overlay {
+        transform: translate(-3%, 4%) scaleY(1);
+    }
+    footer .footer_item .item {
+ 
+        margin-bottom: 20px;
+    }
+    footer .footer_item .item ul li a i {
+        
+        font-size: 14px;
+        line-height: 30px;
+ 
+        height: 30px;
+        width: 30px;
+     
+    }
+}
